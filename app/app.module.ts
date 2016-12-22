@@ -30,6 +30,10 @@ import { HeroService }         from './hero.service';
       {
         path: 'detail/:id',
         component: HeroDetailComponent
+      },
+      {
+        path: 'detail/:id',
+        component: HeroDetailComponent
       }
     ])
   ],

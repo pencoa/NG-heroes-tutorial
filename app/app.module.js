@@ -42,6 +42,10 @@ var AppModule = (function () {
                     {
                         path: 'detail/:id',
                         component: hero_detail_component_1.HeroDetailComponent
+                    },
+                    {
+                        path: 'detail/:id',
+                        component: hero_detail_component_1.HeroDetailComponent
                     }
                 ])
             ],
