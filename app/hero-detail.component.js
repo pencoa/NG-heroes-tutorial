@@ -13,6 +13,7 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var common_1 = require('@angular/common');
 var hero_service_1 = require('./hero.service');
+var hero_1 = require('./hero');
 require('rxjs/add/operator/switchMap');
 var HeroDetailComponent = (function () {
     function HeroDetailComponent(heroService, route, location) {
@@ -31,7 +32,7 @@ var HeroDetailComponent = (function () {
     };
     __decorate([
         core_1.Input(), 
-        __metadata('design:type', Object)
+        __metadata('design:type', hero_1.Hero)
     ], HeroDetailComponent.prototype, "hero", void 0);
     HeroDetailComponent = __decorate([
         core_1.Component({
